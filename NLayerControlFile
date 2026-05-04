@@ -1,0 +1,16 @@
+lambda = 0.151
+maxIter = 100000
+avgErrorCut = .0002
+lowRand = -1.5
+highRand = 1.5
+
+training = False
+whatWeights = 1         // 0 = Random Weights; 1 = Load Weights; 2 = Pre-set Weights
+truthTableFileName = FingersTruthTableBest3
+numTestCases = 5
+inputsFileName = FingersTestCasesBest3
+weightsFileName = JustForFunApril6_2026
+keepAlive = 100
+
+network = 10000-30-20-5
+
